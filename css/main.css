@@ -55,16 +55,63 @@ nav .nav-right-section img {
 /* Comienzan los estilos del main del documento*/
 
 main {
-  margin-top: 150px;
+  /*margin-top: 8px;*/
   text-align: center;
 }
 
 main .main-logo {
-  width: 530px;
+  width: 500px;
   margin: 0 auto; /*de forma dinámica divide el espacio entre 2 y lo centra.*/
-  margin-bottom: 35px;
+  margin-bottom: 20px;
 }
 
 main .main-logo img {
-  width: 300px;
+  width: 280px;
+}
+
+main .main-input {
+  width: 680px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+main .main-input-container {
+  width: 525px;
+  margin: 0 auto;
+  border-radius: 100px;
+  border: 1px solid #dfe1e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .main-input input {
+  width: 450px;
+  height: 40px;
+  border: none;
+  outline: none;
+}
+
+main .main-input-container:hover {
+  box-shadow: 0 1px 6px 0 #20212447;
+  border-color: #dfe1e500;
+}
+
+main .main-input .search-icon {
+  background-image: url('/assets/search-icon.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 18px;
+  height: 18px;
+}
+
+main .main-input .micro-icon {
+  background-image: url('/assets/google-mic.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
 }
